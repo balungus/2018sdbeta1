@@ -1,0 +1,401 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 9,
+        "fields": {
+            "year": 2000,
+            "summary": " In any normal election year, the South Dakotan governorship would be an easy seat to retain for the Republican Party. However, amidst the Trump administration midterm, this year may very well prove to be atypical. Business as usual in South Dakota has grown tiresome to many, with dissatisfaction steadily increasing due to state government inaction and corruption. Change is desperately craved.</br><br><ul><li>U.S. Representative Kristi Noem emerges from a hard-fought primary campaign for the Republican nomination, hoping to leverage experience in Congress against issues with her image.</br><li>State Senate Minority Leader Billie Sutton enters the race polling much better than previous Democratic opponents, and hopes his message of reform will resonate with frustrated voters.",
+            "image_url": "https://i.imgur.com/uZTV4Fi.png",
+            "winning_electoral_vote_number": 0,
+            "advisor_url": "https://i.imgur.com/8VzfY2h.jpeg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">The Florida Recount / 2000 Election</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000RH0DVM/amhius20-20\" target=”_blank”>Jeffrey Toobin - Too Close to Call: The Thirty-Six-Day Battle to Decide the 2000 Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B00EMLDHFI/amhius20-20\" target=”_blank”>Andrew E. Busch & James W. Ceaser - The Perfect Tie: The True Story of the 2000 Presidential Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/032110028X/amhius20-20\" target=”_blank”>Larry Sabato - Overtime! The Election 2000 Thriller</a><h4>Books by the Candidates</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000C4SV2I/amhius20-20\" target=”_blank”>George W. Bush - A Charge to Keep: My Journey to the White House</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/0452269350/amhius20-20\" target=”_blank”>Al Gore - Earth in the Balance</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B003YFIYWY/amhius20-20\" target=”_blank”>The Ralph Nader Reader</a><h4>Links</h4><a href=\"http://www.digitalhistory.uh.edu/disp_textbook.cfm?smtID=2&psid=3377\" target=”_blank”>Digital History - The Disputed Election of 2000</a></br><a href=\"http://www.pbs.org/wnet/supremecourt/future/landmark_bush.html\" target=”_blank”><em>Bush v. Gore</em></a></br><a href=\"http://www.vanityfair.com/news/2004/10/florida-election-2000\" target=”_blank”>The Path to Florida</a></br><a href=\"http://www.historyplace.com/speeches/gore-concedes.htm\" target=”_blank”>Al Gore Concedes the 2000 Election</a>",
+            "has_visits": 0,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "2018SD"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 77,
+        "fields": {
+            "first_name": "Kristi",
+            "last_name": "Noem",
+            "election": 9,
+            "party": "Republican",
+            "state": "Hamlin County",
+            "priority": 1,
+            "description": "Kristi Noem has been serving as the at-large U.S. Representative for South Dakota since 2011, when she unseated Democrat Stephanie Herseth Sandlin. With Dennis Daugaard term limited and Lt. Governor Michels uninterested in running, the nomination was fought for between herself and the state's attorney general, Marty Jackley. What initially seemed to be a minor diversion in her road to Pierre ended up being a bruising primary, complete with Noem being branded with the dubious label every South Dakotan politician fears: being an out-of-touch Washington insider.</br><br>Though beginning at an advantage, Noem may easily falter in several ways throughout the campaign. With allegations of corruption and incompetence plaguing the state legislature in wake of the EB-5 and Gear Up scandals, Noem cannot simply enjoy a backseat campaign like so many Republican candidates before her. If she is to continue her party's winning streak for the governorship and become the state's first female governor, she must define herself early on and keep Billie Sutton at bay with stances on the issues as equally strong as his own.",
+            "color_hex": "#c80815",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/laBLpMd.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2018 South Dakota gubernatorial election.</h3><p>Despite an unusually close race against Sutton, you've managed to pull out a victory and have extended the Republican Party's winning streak of the governorship. You've also cemented yourself in history as South Dakota's first female governor. The Republicans have a supermajority in the state legislature, so as long as you didn't sour relations with them, you should be able to pass pretty much any legislation you choose to.</br><br>Given that in four years you'll be running as an incumbent, and it's unlikely that Sutton will run again, your re-election is almost assured. Past that, you may look into running for the Senate if Mike Rounds decides to retire in 2026, or perhaps you have a future in national politics? Either way, enjoy your victory, Governor-elect Noem. Here's hoping you can bring some much-needed change to Pierre.",
+            "electoral_loss_message": "<h3>Surprisingly, you have lost the 2018 South Dakota gubernatorial election.</h3><p>Despite the advantage you first held over Sutton in the polling, it looks like he's pulled off an upset and has become the first Democratic governor elected in 44 years. Perhaps you were too divisive, or maybe South Dakotans simply wanted to try something new. This is an embarrassment, to be sure, but you can at least take some small comfort in knowing Sutton will have a hell of a time getting anything done with the supermajority your party holds in the state legislature.</br><br>As for you, it would seen your political career has come to an end. With your House seat having just been won handily by Dusty Johnson, and the two Senate seats being held by Rounds and Thune who certainly don't seem like they'll be retiring anytime soon, you're out of a job. Perhaps you can try again for the governorship in four years, or enter the state legislature, but in all likelihood you'll end up a lobbyist in Washington. Whatever you do, best of luck, Mrs. Noem.</p>",
+            "no_electoral_majority_message": "<h3>Holy shit?</h3><p>In an historic first, this race is tied. You and Sutton have exactly the same amount of votes, and nobody knows what the hell is going on. That it could even get this close is an embarrassment, but given that the state legislature is overwhelmingly Republican, it's a certainty that they'd vote for you to become governor. At least, that's what'll probably end up happening. After all, nothing like this has ever happened before for a gubernatorial election. Looks like you might have to watch out for Sutton in four years, as he's sure to make another run campaigning on this situation...</br><br>If you're seeing this screen, go buy a lottery ticket because this is so insanely unlikely to happen that you may as well have just spotted a fucking sasquatch. Screenshot this and post it somewhere, I don't know.",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 78,
+        "fields": {
+            "first_name": "Billie",
+            "last_name": "Sutton",
+            "election": 9,
+            "party": "Democratic",
+            "state": "Gregory County",
+            "priority": 2,
+            "description": "Fifth-generation South Dakotan and minority leader of the South Dakota State Senate, Billie Sutton enters the race following an unopposed primary with a generally united, though internally fractured party. In another life, he would have been a professional bronc rider, but a tragic rodeo accident leaving him paralyzed from the waist down cut this dream short. Three years later, he was elected to the state legislature, and with his name recognition from his family ranch coupled with his life story, he has endeared himself to even many Republicans within his district since 2010.</br><br>Entering the race, Sutton will be trailing Noem in the polls, but given his track record of moderate-to-conservative positions and personal likability amongst voters, that may easily change. With South Dakotans growing tired of business-as-usual politics in Pierre, Sutton's main campaign focus around reform is likely to resonate with many. Even so, no Democrat has won the governorship of the state since 1974, and with the levels of polarization present in Trump's America, it would take a truly well-oiled machine of a campaign to break the near fifty year dry spell.",
+            "color_hex": "#6495ed",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/UbKHDIo.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>Though it was perhaps expected, you could have easily faltered at a number of points. Credit to you for pulling through.</p><p>On the political front, you can continue the Clinton legacy and strengthen Social Security for generations to come. Perhaps you can succeed on health care where Clinton came up short? Or maybe you can create a future of renewable energy for America. Just be wary of a (George or Jeb?) Bush challenge in 2004.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2000 election.</h3><p>Surely the second-guessing will be intense, but if things were close you could probably run again in 2004.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner. A lot should depend on the margin of his victory, and whether it was large or small.</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, for the first time since 1824. Unfortunately for you, a majority of states have Republican controlled congressional delegations.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 79,
+        "fields": {
+            "first_name": "Kurt",
+            "last_name": "Evans",
+            "election": 9,
+            "party": "Libertarian",
+            "state": "Jerauld County",
+            "priority": 3,
+            "description": "Kurt Evans is a former high school teacher and something of a perennial candidate, running for statewide elections since 1996, most recently with a state auditor run in 2014. His run in 2002 for the U.S. Senate stirred some controversy when, after the totals were counted, then-Representative John Thune was found to have lost by just over five hundred votes. Kurt Evans received three thousand votes. This footnote in history, labelling him as a spoiler, is likely to be the closest thing which will resemble a lasting legacy for him in state politics, however small.</br><br>Evans holds a few beliefs not exactly congruent with the Libertarian Party, but in all honesty, that doesn't matter much for how hopeless any election prospects are for the state party. Given his wooden style of speaking and minimal resources, he is likely to be an unnoticed variable in this race. Even so, perhaps he can at least put up a decent showing in November, siphoning off votes from Noem due to party fatigue, or from Sutton should he alienate progressives in his campaign. With how close the election may be, maybe Evans' run will be more significant...",
+            "color_hex": "#daa520",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/OD1v322.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>This was definitely not supposed to happen. Good luck!</p>",
+            "electoral_loss_message": "<h3>As expected, you have lost the 2000 election.</h3><p>The legacy of this campaign depends on a couple of factors. First of all, did you receive 5% of the popular vote? If so, congratulations! You will enable the Green Party to run a vigorous campaign in 2004 and present a true choice to the American people. Also, the Democrats were a little peeved that you \"stole\" votes from them in this election. Hopefully that doesn't lead to a backlash.</p>",
+            "no_electoral_majority_message": "<h3>Wow! No candidate received 270 electoral votes, but the House will elect George W. Bush as President.</h3><p>Did you receive 5% of the popular vote? If so, congratulations! You will enable the Green Party to run a vigorous campaign in 2004 and present a true choice to the American people. Also, the Democrats were a little peeved that you \"stole\" votes from them in this election. Hopefully that doesn't lead to a backlash, especially since they will lose the vote in the House.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 80,
+        "fields": {
+            "first_name": "Lora",
+            "last_name": "Hubbel",
+            "election": 9,
+            "party": "Constitution",
+            "state": "i dont care enough to research",
+            "priority": 4,
+            "description": "''",
+            "color_hex": "#ff00ff",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "''",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 81,
+        "fields": {
+            "first_name": "Larry",
+            "last_name": "Rhoden",
+            "election": 9,
+            "party": "Republican",
+            "state": "Meade County",
+            "priority": 5,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/rWiMlm5.png",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "Larry Rhoden is currently serving in the South Dakota House, previously served in the South Dakota Senate, and is a good party man to have by your side. He ticks all the boxes: military veteran, experienced, well-liked in his district, has ties to the agriculture industry, provides a regional balance, and most notably of course, is a man. With a more mild-mannered personality compared to yourself, he's likely to not play a defining role in the campaign, but that shouldn't be an issue given how inconsequential the lieutenant governor usually is in a state like South Dakota.</br><br>You've stated before that your lieutenant governor would hold a more \"traditional role in government\", as you put it, which actually translates to yourself fielding most of that office's work. Luckily for you, Rhoden doesn't seem to mind.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 82,
+        "fields": {
+            "first_name": "Marty",
+            "last_name": "Jackley",
+            "election": 9,
+            "party": "Republican",
+            "state": "Hughes County",
+            "priority": 6,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/chYKUDg.png",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "Attorney General of South Dakota Marty Jackley was your sole primary opponent for the Republican nomination, and the two of you certainly had some choice words for one another. In fact, it was he who first branded you as a Washington insider in this race, so you have him to thank for that gaining traction. Selecting him as your running mate would soothe his supporters from the primary, and he's certainly experienced enough, but if you're looking to emphasize a reformist message, you could do better than the guy who embodies the establishment in Pierre.</br><br>In the past, you've stated that your lieutenant governor would hold a more \"traditional role\", meaning you would do most of the work for that office. For Jackley, this is likely to cause issues, as he would prefer a more active role.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 85,
+        "fields": {
+            "first_name": "Michelle",
+            "last_name": "Lavallee",
+            "election": 9,
+            "party": "Democratic",
+            "state": "Minnehaha County",
+            "priority": 9,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/GWyHuEL.png",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "Sioux Falls businesswoman Michelle Lavallee isn't especially known outside of Minnehaha County, but being from the largest city in the state nearly makes up for that. Lavallee only recently switched her party registration from Republican to Democrat in order to run with you, and should be a good team player for the race. Though the two of you are in agreement on most issues, she still provides a measure of ideological balance. With her history working on city commissions and connections to local industries, she'll certainly be of help in winning plenty of urban votes.</br><br>Though the position of lieutenant governor is usually more low-key, you've stated before that you intend to campaign and govern as a team, which should play well with female voters who may appreciate your selection of her this year.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 86,
+        "fields": {
+            "first_name": "Kevin",
+            "last_name": "Killer",
+            "election": 9,
+            "party": "Democratic",
+            "state": "Oglala Lakota County",
+            "priority": 10,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/ai7H72D.png",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "In selecting State Senator Kevin Killer as your running mate, he would make history as the first Native American on a major party gubernatorial ticket in South Dakota. While the Native vote tends to overwhelmingly go toward the Democratic Party, many do not vote. Just under nine percent of the state population is Native, and perhaps choosing Killer will activate some non-voters in that demographic across the state. For his part, Killer isn't a token selection; he previously served in the State House until hitting the term limit, silencing accusations of inexperience.</br><br>Typically, the position of lieutenant governor goes unnoticed. However, you've stated that you plan to work as a team during and after the election. Ideally, you can supercharge Native turnout while appealing to other voters too.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 89,
+        "fields": {
+            "first_name": "Richard",
+            "last_name": "Shelatz",
+            "election": 9,
+            "party": "Libertarian",
+            "state": "Pennington County",
+            "priority": 13,
+            "description": "''",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/vxv3MeO.png",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "Holding the greatly esteemed position of vice chair of the South Dakota Libertarian Party, a position entrusted unto him by tens of party members, Richard Shelatz will have virtually zero impact on the race overall. For what it's worth, he holds more \"traditionally\" libertarian beliefs than yourself, as if such a thing matters here. Shelatz was once a Republican, but had a political awakening after working as an EMT in a Rapid City detox facility where he learned of the great crime against civil liberties: giving people treatment for their substance addictions. What a heroic fellow.</br><br>That aside, Shelatz is the only option you have to run for governor with, and probably won't even be present on the trail with you. Still, maybe he can get some votes out of Rapid City for you. Like from himself. Maybe a friend too.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 90,
+        "fields": {
+            "first_name": "Terry",
+            "last_name": "LaFleur",
+            "election": 9,
+            "party": "Constitution",
+            "state": "who cares",
+            "priority": 14,
+            "description": "''",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "''",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 57,
+        "fields": {
+            "candidate": 80,
+            "running_mate": 90
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 56,
+        "fields": {
+            "candidate": 79,
+            "running_mate": 89
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 48,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 81
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 52,
+        "fields": {
+            "candidate": 78,
+            "running_mate": 85
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 49,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 82
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 156715,
+        "fields": {
+            "candidate": 78,
+            "running_mate": 86
+        }
+    }
+]
+
+campaignTrail_temp.credits = "Mike McGovern"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 9,
+        "candidates": [
+            77,
+            78,
+            79,
+            80
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 9,
+        "candidates": [
+            77,
+            78,
+            79,
+            80
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 9,
+        "year": 2000,
+        "is_premium": 0,
+        "display_year": "2018SD"
+    }
+]
+
+jet_data = {
+    "headerColor": "#858585",
+    "windowColor": "#be9304",
+    "containerColor": "#be9304",
+    "innerWindowColor": "#025d88",
+    "bannerImageUrl": "https://i.imgur.com/dmbtGZg.png",
+    "backgroundImageUrl": "https://i.imgur.com/uvVIUuz.jpeg",
+    "endingTextColor": "#000000",
+    "customQuote": "\"I learned more about the economy from one South Dakota dust storm that I did in all my years of college.\" ",
+    "gameTitle": "NEW CAMPAIGN TRAIL"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>NEW CAMPAIGN TRAIL</h2><font id="wittyquote" size="4" color="white"><em>"I learned more about the economy from one South Dakota dust storm that I did in all my years of college." </em></font>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#858585";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#be9304";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#be9304";
+
+document.getElementById("header").src = "https://i.imgur.com/dmbtGZg.png";
+
+document.body.background = "https://i.imgur.com/uvVIUuz.jpeg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#025d88!important;}</style>";
+
+//#endcode
+
+
+
